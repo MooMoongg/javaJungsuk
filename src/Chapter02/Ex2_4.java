@@ -8,7 +8,9 @@ public class Ex2_4 {
 			
 			x=15;
 			System.out.println(x);
-
+			System.out.println(x);
+			System.out.println(x);
+//alt + shift + a 컬럼편집모드(토글)
 	}
 
 }
