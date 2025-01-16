@@ -12,6 +12,7 @@ public class Ex2_12 {
 		System.out.println("3"+1);
 		System.out.println((char)(3+'0'));
 		
+
 	}
 
 }
