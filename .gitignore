@@ -9,6 +9,6 @@ bin/
 target/
 *.class
 
-# 운영체제에서 자동 생성하는 파일 (윈도우 & 맥)
+# 운영체제에서 자동 생성하는 파일
 .DS_Store
 Thumbs.db
