@@ -24,22 +24,22 @@ class MyMath3 {
 	int add(int[] a) {
 		System.out.print("int add(int[] a) -");
 		int result = 0;
-		for (int i = 0; i < a.length; i++) 
+		for (int i = 0; i < a.length; i++)
 			result += a[i];
 
-			return result;
-		}
+		return result;
 	}
+}
 
 public class Ex06_10 {
 	public static void main(String[] args) {
 		MyMath3 mm = new MyMath3();
-		System.out.println("mm.add(3, 3) 결과 : "+mm.add(3, 3));
-		System.out.println("mm.add(3L, 5) 결과 : "+mm.add(3L, 5));
-		System.out.println("mm.add(6, 3L) 결과 : "+mm.add(6, 3L));
-		System.out.println("mm.add(3L, 3L) 결과 : "+mm.add(3L, 3L));
-		
-		int[] a = {100, 200, 300};
-		System.out.println("mm.add(a) 결과 : "+mm.add(a));
+		System.out.println("mm.add(3, 3) 결과 : " + mm.add(3, 3));
+		System.out.println("mm.add(3L, 5) 결과 : " + mm.add(3L, 5));
+		System.out.println("mm.add(6, 3L) 결과 : " + mm.add(6, 3L));
+		System.out.println("mm.add(3L, 3L) 결과 : " + mm.add(3L, 3L));
+
+		int[] a = { 100, 200, 300 };
+		System.out.println("mm.add(a) 결과 : " + mm.add(a));
 	}
 }
