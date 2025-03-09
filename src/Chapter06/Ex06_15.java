@@ -1,6 +1,6 @@
 package Chapter06;
 
-class Ex6_15 {
+class Ex06_15 {
 	static int[] arr = new int[10];
 
 	static {
